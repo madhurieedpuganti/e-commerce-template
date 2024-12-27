@@ -199,14 +199,20 @@ h2 > span {
 
 .information-block-flex {
   display: flex;
-  justify-content: start;
+  justify-content: center;
+  align-items:start;
   gap: 30px;
   padding: 40px;
 }
-.information-block-flex > div > p {
+.information-block-flex >div>p {
   width: 400px;
   margin: 20px 0;
-  color: greyF;
+  color: grey;
+}
+
+
+.information-block-flex >div>span{
+  color: #f1f1f1;
 }
 
 .information-button-flex {
@@ -234,4 +240,26 @@ h2 > span {
   border-bottom: 1px solid grey;
   width: 210px;
   padding: 10px;
+}
+.icon-sidebyside{
+  display: flex;
+  align-items: center;
+  gap:20px;
+  font-size: 20px;
+ 
+}
+.icon-sidebyside>i{
+  border: 1px solid none;
+  background-color: red;
+  padding: 10px;
+  border-radius: 50%;
+  /* margin-top: 5px; */
+  
+}
+
+
+.KONTAKT-block>p{
+  margin-top: 20px;
+  color: aliceblue !important;
+
 }
